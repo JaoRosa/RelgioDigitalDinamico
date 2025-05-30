@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!--Define que a página usa o padrão UTF-8 (suporte a acentos, ç, etc.): -->
+    <meta charset="UTF-8">
+    <!--Garante que a página se ajuste bem em celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Nome no topo da aba no navegador: -->
+    <title>CREA-RJ_CLOCK</title>
+    <!--Define que a imagem na aba: -->
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+    <!--Define a interaçao : -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<h1>CREA-RJ</h1>
+
+    <!-- 
+    class="relogio" → essa classe é usada para aplicar estilos via CSS.
+ -->
+    <div class="relogio">
+        <!-- 
+        <div> → é um "container" (caixa) genérico, que serve para agrupar 
+        elementos e organizar a página a partir da quebra de linha . 
+        -->
+        <div>
+            <span id="horas">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+        <div>
+            <span id="minutos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+        <div>
+            <span id="segundos">00</span>
+            <span class="tempo">Segundos</span>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

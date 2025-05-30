@@ -1,0 +1,24 @@
+/* (*) → Seletor universal: aplica a todos os elementos do HTML */
+* {
+  /* margem externa zerada */
+  margin: 0;
+  /* preenchimento interno zerado */
+  padding: 0;
+  /* fonte padrão; as demais são reservas caso a principal falhe */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* Adicionando box-sizing para melhor controle de layout */
+  box-sizing: border-box;
+}
+
+/* Corpo da página HTML */
+body {
+  /* faz com que o <body> ocupe 100% da altura da janela (viewport) */
+  height: 100vh;
+  /* plano de fundo com gradiente linear, do azul escuro ao branco */
+  background: linear-gradient(120deg, #002a94,#3361d6, #fff);
+  /* Centralizando conteúdo vertical e horizontalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
